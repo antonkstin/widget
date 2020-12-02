@@ -1,0 +1,21 @@
+.widget__notification {
+  margin: 0;
+
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: .8em;
+  line-height: .8em;
+
+  position: absolute;
+  right: -.5em;
+  top: -.5em;
+
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 50%;
+  background: #f63;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

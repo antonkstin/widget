@@ -1,0 +1,31 @@
+@import url(./__title/article__title.css);
+@import url(./__info/article__info.css);
+
+.article {
+  margin: 0 0 5px 0;
+  padding: 5px 10px;
+
+  display: block;
+
+  border-radius: 1em;
+
+  background-color: #6c6;
+
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+
+  transition: background-color .45s;
+}
+
+.article:last-of-type {
+  margin: 0;
+}
+
+.article:hover {
+  background-color: #f63;
+}
+
+.article:visited, .js_state_true {
+  color: #000;
+}

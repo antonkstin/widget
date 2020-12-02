@@ -1,0 +1,14 @@
+.widget__header {
+  margin: 0 0 1em 0;
+  position: sticky;
+  top: 0;
+  left: 0;
+
+  height: 2.5em;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #cc6;
+}

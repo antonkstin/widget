@@ -1,0 +1,14 @@
+.widget__header-close-icon {
+  margin: 0;
+
+  width: 1.5em;
+  height: 1.5em;
+
+  cursor: pointer;
+
+  transition: background-color .45s;
+}
+
+.widget__header-close-icon:hover {
+  background-color: #f63;
+}

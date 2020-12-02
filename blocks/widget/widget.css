@@ -1,0 +1,66 @@
+@import url(./__notification/widget__notification.css);
+@import url(./__header/widget__header.css);
+@import url(./__header-title/widget__header-title.css);
+@import url(./__header-close-icon/widget__header-close-icon.css);
+
+.widget {
+  margin: 0;
+  padding: 0;
+  position: relative;
+
+  width: 100px;
+  height: 40px;
+  box-sizing: border-box;
+  background-color: #6c6;
+
+  border-radius: .8em;
+
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+
+  transition: width 1s, height 1s;
+}
+
+.widget_is-opened {
+  padding: 0 1em 1em 1em;
+
+  display: block;
+
+  font-weight: normal;
+
+  width: 500px;
+  height: 245px;
+  overflow-y: scroll;
+  
+  background-color: #cc6;
+
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+
+  cursor: default;
+}
+
+
+
+
+
+
+
+/* Скроллбар */
+.widget::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  background-color: #cc6;
+}
+.widget::-webkit-scrollbar-thumb { /* 5 - ползунок */
+  border-radius: 2px;
+  background-color: #6c6;
+}
