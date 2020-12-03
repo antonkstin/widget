@@ -1,0 +1,162 @@
+.widget__notification {
+  margin: 0;
+
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: .8em;
+  line-height: .8em;
+
+  position: absolute;
+  right: -.5em;
+  top: -.5em;
+
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 50%;
+  background: #f63;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.widget__header {
+  margin: 0 0 1em 0;
+  position: sticky;
+  top: 0;
+  left: 0;
+
+  height: 2.5em;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #cc6;
+}
+.widget__header-title {
+  margin: 0;
+}
+.widget__header-close-icon {
+  margin: 0;
+
+  width: 1.5em;
+  height: 1.5em;
+
+  cursor: pointer;
+
+  transition: background-color .45s;
+}
+
+.widget__header-close-icon:hover {
+  background-color: #f63;
+}
+.widget {
+  margin: 0;
+  padding: 0;
+  position: relative;
+
+  width: 100px;
+  height: 40px;
+  box-sizing: border-box;
+  background-color: #6c6;
+
+  border-radius: .8em;
+
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+
+  transition: width 1s, height 1s;
+}
+
+.widget_is-opened {
+  padding: 0 1em 1em 1em;
+
+  display: block;
+
+  font-weight: normal;
+
+  width: 500px;
+  height: 245px;
+  overflow-y: scroll;
+  
+  background-color: #cc6;
+
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+
+  cursor: default;
+}
+
+
+
+
+
+
+
+/* Скроллбар */
+.widget::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  background-color: #cc6;
+}
+.widget::-webkit-scrollbar-thumb { /* 5 - ползунок */
+  border-radius: 2px;
+  background-color: #6c6;
+}
+.article__title {
+  margin: 0;
+  padding: 0;
+
+  font-size: 1em;
+  font-weight: normal;
+  line-height: 1em;
+
+  pointer-events: none;
+}
+.article__info {
+  margin: .2em 0 0 0;
+  padding: 0;
+
+  font-style: italic;
+  font-size: .8em;
+
+  pointer-events: none;
+}
+.article {
+  margin: 0 0 5px 0;
+  padding: 5px 10px;
+
+  display: block;
+
+  border-radius: 1em;
+
+  background-color: #6c6;
+
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+
+  transition: background-color .45s;
+}
+
+.article:last-of-type {
+  margin: 0;
+}
+
+.article:hover {
+  background-color: #f63;
+}
+
+.article:visited, .js_state_true {
+  color: #000;
+}
+
+
